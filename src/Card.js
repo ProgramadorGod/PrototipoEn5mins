@@ -1,6 +1,8 @@
 import React from 'react'
 import "./App.css";
 
+// lol
+
 const Card = ({imagen,text}) => {
 
   return (

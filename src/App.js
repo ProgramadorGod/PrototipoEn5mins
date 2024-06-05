@@ -12,7 +12,7 @@ function App() {
         <div id="textnavbar">
           <img src={logounipaz} id="logounipaz"></img>
           <div id="navtext">
-            Laboratorio Virtual
+            Laboratorio Virtual Supremo
           </div>
         </div>
 
