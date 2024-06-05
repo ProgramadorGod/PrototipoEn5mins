@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Runtoe';
+  src: url('./fonts/Runtoe.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#navbar{
+  width: 100vw;
+  position: absolute;
+  height: 10vh;
+  background-color: #273475;
+
+}
+
+#textnavbar{
+  color: rgb(255, 255, 255)  ;
+  display: flex;
+  font-size: 3vw;
+  font-family: "Runtoe";
+  
+
+}
+
+#logounipaz{
+  height: 10vh;
+  display: flex;
+
+  margin-left: 4vw;
+  margin-right: 15vw;
+}
+
+#navtext{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+#homecontainer{
+  color: black;
+  padding-top: 20vh;
+  height: 200vh;
+  display: flex;
+  
+  justify-content: center;
+}
+
+#CardContainer{
+  width: 60vw;
+  border-radius: 4vw;
+  margin-bottom: 20vh;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(116, 114, 114, 0.212);
+  height: 70vh;
+  flex-direction: column;
+}
+
+#imagen{
+  object-fit: contain;
+  box-shadow: 0.5vw 0.5vw 1vw 1vw rgba(0, 0, 0, 0.384);
+  align-self: center;
+  width: 30vw;
+  height: 20vw;
+  margin-top: 4vh;
+}
+
+#Cardtext{
+  font-size: 2vw;
+}

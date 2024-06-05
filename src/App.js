@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import logounipaz from "./media/logounipaz-nobg3.png"
+import Home from './Home';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="navbar">
+
+        <div id="textnavbar">
+          <img src={logounipaz} id="logounipaz"></img>
+          <div id="navtext">
+            Laboratorio Virtual
+          </div>
+        </div>
+
+      </div>
+
+
+      <div>
+        <Home/>
+      </div>
+
+
     </div>
   );
 }
